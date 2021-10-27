@@ -1,68 +1,66 @@
 @font-face {
-    font-family: "PT Sans";
-    font-style: normal;
-    font-weight: 400;
-    src: url("../fonts/ptsans-400.woff2") format("woff2");
-    font-display: swap;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
 }
 
 @font-face {
-    font-family: "PT Sans";
-    font-style: normal;
-    font-weight: 700;
-    src: url("../fonts/ptsans-700.woff2") format("woff2");
-    font-display: swap;
-  }
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
 
-  body {
-    font-family: "PT Sans", sans-serif;
-    font-size: 18px;
-    line-height: 21px;
-    color: #000000;
-    background-color: #ffffff;
-  }
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  background-color: #ffffff;
+}
 
-  .page-header {
-    color: #000000;
-    background: #ffffff;
-  }
+.page-header {
+  color: #000000;
+  background: #ffffff;
+}
 
-  .navigation-link {
-    font-size: 20px;
-    line-height: 26px;
-    font-weight: 700;
-    text-align: center;
-    color: inherit;
-    text-decoration: none;
-    text-transform: capitalize;
-  }
+.navigation-link {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+  text-align: center;
+  color: inherit;
+  text-decoration: none;
+}
 
-  .welcome-logo-cover {
-    width: 1200px;
-    height: 485px;
-    color: #000000;
-    background:lightcoral;
-    background-image: url("../images/index-background.jpg");
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-  }
+.welcome-logo-cover {
+  width: 1200px;
+  height: 485px;
+  color: #000000;
+  background: lightcoral;
+  background-image: url("../images/index-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
 
-  .newsletter {
-    width: 1200px;
-    height: 411px;
-    color: #000000;
-    background:lightcoral;
-    background-image: url("../images/background-mailing.jpg");
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-  }
+.newsletter {
+  width: 1200px;
+  height: 411px;
+  color: #000000;
+  background: lightcoral;
+  background-image: url("../images/background-mailing.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
 
-  .catalog-filter-cover {
-    width: 1200px;
-    height: 408px;
-    color: #000000;
-    background:lightcoral;
-    background-image: url("../images/catalog-background.jpg");
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-  }
+.catalog-filter-cover {
+  width: 1200px;
+  color: #000000;
+  background: lightcoral;
+  background-image: url("../images/catalog-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
