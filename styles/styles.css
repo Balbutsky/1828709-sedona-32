@@ -124,6 +124,88 @@ ul {
   text-transform: uppercase;
 }
 
+.inner-header-title {
+  font-size: 60px;
+  line-height: 78px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.breadcrumbs-link {
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.visually-hidden {
+  visibility: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+.catalog-filter-title {
+  font-size: 20px;
+  ine-height: 26px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.control-label {
+  font-size: 18px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+
+.catalog-search-results p {
+  font-size: 30px;
+  line-height: 39px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.lodging-card-title {
+  font-size: 24px;
+  line-height: 31px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.lodging-card-type, .lodging-card-price {
+  font-size: 18px;
+  line-height: 23px;
+  color: #333333;
+}
+
+.lodging-card-rate {
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.hotels-on-page {
+  font-size: 18px;
+  line-height: 23px;
+  color: #333333;
+}
+
+.newsletter-title-catalog {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.newsletter-catalog p {
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #333333;
+}
 
 .welcome-logo-cover {
   width: 1200px;
