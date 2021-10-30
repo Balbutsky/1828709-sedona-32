@@ -36,10 +36,6 @@ body {
   text-decoration: none;
 }
 
-ul {
-  list-style-type: none;
-}
-
 .main-title {
   font-size: 30px;
   line-height: 36px;
@@ -141,13 +137,17 @@ ul {
   visibility: hidden;
 }
 
-a {
+.no-underline {
   text-decoration: none;
+}
+
+.list-style {
+  list-style-type: none;
 }
 
 .catalog-filter-title {
   font-size: 20px;
-  ine-height: 26px;
+  line-height: 26px;
   font-weight: 700;
   color: #FFFFFF;
 }
@@ -172,7 +172,13 @@ a {
   color: #000000;
 }
 
-.lodging-card-type, .lodging-card-price {
+.lodging-card-type {
+  font-size: 18px;
+  line-height: 23px;
+  color: #333333;
+}
+
+.lodging-card-price {
   font-size: 18px;
   line-height: 23px;
   color: #333333;
