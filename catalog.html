@@ -45,22 +45,23 @@
       </header>
       <main class="main-inner">
        <div class="page-container">
-       <section class="catalog-filter-cover">
-        <header class="inner-header">
+        <div class="catalog-filter-cover">
+         <header class="inner-header">
           <h1 class="inner-header-title">Гостиницы Седоны</h1>
           <ul class="breadcrumbs list-style">
-            <li class="breadcrumbs-item">
-              <a class="breadcrumbs-link" href="index.html">
-                <span class="visually-hidden">
-                  Главная
-                </span>
-              </a>
-            </li>
-            <li class="breadcrumbs-item">
-              <a class="breadcrumbs-link">Гостиницы</a>
-            </li>
+           <li class="breadcrumbs-item">
+            <a class="breadcrumbs-link" href="index.html">
+             <span class="visually-hidden">
+               Главная
+             </span>
+            </a>
+           </li>
+           <li class="breadcrumbs-item">
+            <a class="breadcrumbs-link">Гостиницы</a>
+           </li>
           </ul>
-        </header>
+         </header>
+         <section class="catalog-inners">
          <h2 class="visually-hidden">Список гостиниц с фильтрами</h2>
          <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
             <fieldset class="catalog-filter-group">
@@ -138,9 +139,10 @@
             <button class="button" type="reset">Сбросить</button>
           </form>
          </section>
+        </div>
          <section class="catalog-search-results">
+          <div class="sorting-container">
           <p>Найдено гостиниц: 38</p>
-
           <form class="sorting-type">
             <label class="visually-hidden" for="sorting">Сортировка</label>
             <select class="select-control" id="sorting" name="sorting">
@@ -159,6 +161,7 @@
           <a href="#" class="button button-naprimer">
             <span class="visually-hidden">Показать список</span>
           </a>
+          </div>
           <ul class="lodging-list list-style">
               <li class="lodging-card">
                <a class="lodging-card-link no-underline" href="lodging.html">
@@ -281,7 +284,6 @@
         </section>
         <div>
          <a class="htmlacademy-link" href="https://htmlacademy.ru/"><img class="logo-html" src="images/logo-html.svg" width="115" height="33" alt="Логотип HTML.Academy"></a>
-        </div>
         </div>
       </footer>
 

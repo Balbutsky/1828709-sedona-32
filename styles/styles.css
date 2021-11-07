@@ -207,16 +207,20 @@ body {
   color: #FFFFFF;
 }
 
-.visually-hidden {
-  visibility: hidden;
-}
-
 .no-underline {
   text-decoration: none;
 }
 
 .list-style {
   list-style-type: none;
+}
+
+.catalog-inners {
+  display: flex;
+}
+
+.sorting-container {
+  display: flex;
 }
 
 .catalog-filter-title {
