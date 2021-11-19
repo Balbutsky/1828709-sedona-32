@@ -30,6 +30,17 @@ body {
   background-color: #ffffff;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .page-header {
   color: #000000;
   background: #ffffff;
@@ -42,10 +53,12 @@ body {
 }
 
 .navigation-list {
+  display: flex;
+  flex-wrap: wrap;
   padding: 0;
   width: 420px;
   margin-right: 100px;
-  margin-left: 171px;
+  margin-left: 71px;
 }
 
 .header-logo {
@@ -56,10 +69,12 @@ body {
 .navigation-user {
   max-width: 300px;
   margin-left: auto;
-  margin-right: 172px;
+  margin-right: 71px;
 }
 
 .navigation-link {
+  display: block;
+  padding: 20px 16px;
   font-size: 20px;
   line-height: 26px;
   font-weight: 700;
@@ -80,9 +95,16 @@ body {
 .welcome-logo {
   display: block;
   margin: 0 auto;
+  padding-top: 51px;
+  padding-bottom: 82px;
 }
 
 .main-title {
+  margin-top: 63px;
+  margin-bottom: 23px;
+  margin-right: 240px;
+  margin-left: 240px;
+  width: 720px;
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
@@ -135,8 +157,8 @@ body {
 }
 
 .advantages-description-white {
-  color: #FFFFFF;
-  background: #83B3D3;
+  color: #ffffff;
+  background: #83b3d3;
 }
 
 .suggestions {
@@ -155,11 +177,11 @@ body {
   color: #000000;
 }
 
-.newsletter p{
+.newsletter p {
   font-size: 22px;
   line-height: 26px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .newsletter-title {
@@ -168,7 +190,7 @@ body {
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .page-footer-container {
@@ -198,13 +220,13 @@ body {
   font-size: 60px;
   line-height: 78px;
   font-weight: 700;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .breadcrumbs-link {
   font-size: 16px;
   line-height: 21px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .no-underline {
@@ -227,13 +249,13 @@ body {
   font-size: 20px;
   line-height: 26px;
   font-weight: 700;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .control-label {
   font-size: 18px;
   line-height: 23px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .catalog-search-results p {
@@ -295,7 +317,7 @@ body {
   width: 1200px;
   height: 485px;
   color: #000000;
-  background: #83B3D3;
+  background: #83b3d3;
   background-image: url("../images/index-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -305,7 +327,7 @@ body {
   width: 1200px;
   height: 411px;
   color: #000000;
-  background: #83B3D3;
+  background: #83b3d3;
   background-image: url("../images/background-mailing.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -314,7 +336,7 @@ body {
 .catalog-filter-cover {
   width: 1200px;
   color: #000000;
-  background: #83B3D3;
+  background: #83b3d3;
   background-image: url("../images/catalog-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
